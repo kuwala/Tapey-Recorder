@@ -22,7 +22,7 @@
 
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
-#include <SerialFlash.h>+
+#include <SerialFlash.h>
 
 // GUItool: begin automatically generated code
 AudioInputI2S            i2s2;           //xy=297,173
