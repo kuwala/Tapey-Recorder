@@ -25,6 +25,17 @@ W 212.5mm 213.5mm 10mm
 |---------------|------------|
 | Audio Data    | 9, 11, 13, 22, 23 |
 | Audio Control | 18, 19 |
+| OLED          | 3, 4 |
+
+## SSD1306 i2c OLED 128x64
+Using these includes. Pins 3, 4 are for SCL2 and SDA2, so you have to use
+Wire2 as the interface object.
+```C
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+```
+
 
 ## MCP23S17 port expander
 Use these port exapnders with 
